@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    background-color: #1f1f1f;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+
+    .flex-header {
+        display: flex;
+        margin-right: 60px;
+        justify-content: space-between;
+    }
+}

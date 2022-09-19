@@ -1,10 +1,10 @@
 <header>
 
-    <div>
+    <div class="flex-header">
         <h1>Movieee</h1>
     </div>
     <div>
-        <ul>
+        <ul class="flex-header">
             <li><a href=" {{ route('home') }} ">Home</a></li>
             <li><a href=" {{ route('movies.index') }} ">Movies</a></li>
         </ul>

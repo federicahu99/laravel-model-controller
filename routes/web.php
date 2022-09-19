@@ -17,5 +17,5 @@ Route::get('/', 'HomeController@showHome')->name('home');
 
 Route::get('/movies', 'MovieController@index')->name('movies.index');
 
-Route::get('/movie/{id}', 'MovieController@show')->name('movies.show');
+Route::get('/movies/{id}', 'MovieController@show')->name('movies.show');
 

@@ -14,12 +14,7 @@ class MovieController extends Controller
 
     public function show($id)
     {
-        $movies = Movie::find($id);
-
-        if(!is_numeric($id) || $id < 0 || $id >= count($movies)) {
-           abort(404);
-        }
-            $movie = $movies[$id];
+        $movie = Movie::findOrFail($id);
         return view('movies.show', compact('movie'));
     }
 }
