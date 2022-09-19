@@ -19,8 +19,7 @@ class MovieController extends Controller
         if(!is_numeric($id) || $id < 0 || $id >= count($movies)) {
            abort(404);
         }
-        
-        $movie = $movies[$id];
+            $movie = $movies[$id];
         return view('movies.show', compact('movie'));
     }
 }

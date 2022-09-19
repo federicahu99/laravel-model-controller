@@ -9,7 +9,7 @@
             <h3> {{ $movie-> date }} </h3>
             <h3> {{ $movie-> nationality }} </h3>
             <h3> {{ $movie-> vote }} </h3>
-            <a href="">Back</a>
+            <a href=" {{ route('movie.index') }} ">Back</a>
         </div>
         @foreach
     </div>
