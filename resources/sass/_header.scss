@@ -1,13 +1,29 @@
 header {
-    display: flex;
     background-color: #1f1f1f;
     color: white;
-    justify-content: space-between;
-    align-items: center;
+    height: 75px;
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
     .flex-header {
         display: flex;
-        margin-right: 60px;
-        justify-content: space-between;
+        justify-content: center;
+
+        li {
+            display: inline-block;
+            margin-left: 50px;
+
+            a {
+                text-decoration: none;
+            }
+        }
     }
 }

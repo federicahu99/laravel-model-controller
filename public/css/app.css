@@ -19,16 +19,78 @@ a {
 }
 
 header {
-  display: flex;
   background-color: #1f1f1f;
   color: white;
+  height: 75px;
+}
+
+header h1 {
+  font-size: 45px;
+}
+
+header .flex {
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 header .flex-header {
   display: flex;
-  margin-right: 60px;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+header .flex-header li {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+header .flex-header li a {
+  text-decoration: none;
+}
+
+#main {
+  padding-top: 60px;
+}
+
+#main p {
+  margin: 20px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+#index {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#index .card {
+  margin: 20px;
+  flex-basis: 45%;
+  background-color: goldenrod;
+  border-radius: 15px;
+  padding: 50px 10px;
+}
+
+#index .card h3 {
+  color: green;
+}
+
+#show {
+  margin-top: 50px;
+}
+
+#show h1 {
+  font-size: 45px;
+  color: goldenrod;
+}
+
+#show h2 {
+  color: green;
+}
+
+#show h3 {
+  font-size: 30px;
 }
 
